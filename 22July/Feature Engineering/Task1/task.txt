@@ -1,0 +1,12 @@
+Feature Engineering Tasks:
+=============================
+Create a column called TotalCost from quantity * price.
+Extract the month name from PurchaseDate.
+Create a binary column IsWeekend (True if weekday >=5).
+Combine CustomerID and ProductCategory into a new identifier.
+If Quantity > 2 and Revenue > 1500, create PremiumBuyer = True.
+Create a feature that classifies TotalRevenue into 'Low', 'Medium', 'High'.
+Add a column DaysSincePurchase from today’s date.
+Apply log transformation on TotalRevenue.
+Create group-wise average revenue using .groupby(ProductCategory).
+Flag customers whose revenue is greater than the 90th percentile.

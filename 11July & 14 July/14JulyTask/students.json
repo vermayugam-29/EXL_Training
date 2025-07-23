@@ -1,0 +1,42 @@
+[
+    {
+        "Name": "Mr. Amit",
+        "Age": "21",
+        "Marks": {
+            "Math": "75",
+            "Science": "80",
+            "English": "85"
+        },
+        "Gender": "Male"
+    },
+    {
+        "Name": "Ms. Sneha",
+        "Age": "20",
+        "Marks": {
+            "Math": "90",
+            "Science": "93",
+            "English": "87"
+        },
+        "Gender": "Female"
+    },
+    {
+        "Name": "Mr. Ravi",
+        "Age": "22",
+        "Marks": {
+            "Math": "70",
+            "Science": "65",
+            "English": "75"
+        },
+        "Gender": "Male"
+    },
+    {
+        "Name": "Ms. Meera",
+        "Age": "19",
+        "Marks": {
+            "Math": "95",
+            "Science": "97",
+            "English": "100"
+        },
+        "Gender": "Female"
+    }
+]

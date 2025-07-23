@@ -1,0 +1,8 @@
+customer_id,signup_date,gender,age,country,num_previous_orders,total_spent
+C001,2023-01-15,Male,28,USA,2,150.75
+C002,2023-03-03,Female,35,Canada,0,89.50
+C003,2022-11-20,Other,22,UK,1,320.20
+C004,2023-06-05,Female,31,USA,0,45.00
+C005,2022-12-30,Male,40,Germany,5,580.60
+C006,2023-02-10,Female,27,Canada,3,210.30
+C007,2023-04-25,Male,30,UK,0,99.99

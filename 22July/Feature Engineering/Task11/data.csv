@@ -1,0 +1,6 @@
+TripID,Distance_KM,FuelUsed_L,Duration_Hours
+T001,400,40,5
+T002,300,30,4
+T003,500,50,6
+T004,350,38,5
+T005,450,42,5.5

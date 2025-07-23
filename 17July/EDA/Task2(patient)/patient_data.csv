@@ -1,0 +1,21 @@
+PatientID,Name,Age,Gender,Region,Diagnosis,TreatmentCost,VisitDate
+P001,Anjali Sharma,32,Female,North,Diabetes,8500,2023-01-15
+P002,Ravi Patel,45,Male,South,Hypertension,9200,2023-01-18
+P003,Sneha Reddy,27,Female,West,Asthma,7600,2023-01-20
+P004,Vikas Mehta,50,Male,North,Cardiac Arrest,15000,2023-01-22
+P005,Neha Singh,35,Female,East,Diabetes,8300,2023-01-25
+P006,Ajay Nair,40,Male,South,Hypertension,9400,2023-02-01
+P007,Priyanka Das,29,Female,West,Asthma,7000,2023-02-05
+P008,Rahul Verma,55,Male,North,Cardiac Arrest,16000,2023-02-07
+P009,Divya Jain,31,Female,East,Diabetes,8200,2023-02-10
+P010,Arun Kumar,42,Male,South,Hypertension,9100,2023-02-14
+P011,Megha Iyer,26,Female,West,Asthma,7500,2023-02-18
+P012,Sachin Yadav,48,Male,North,Cardiac Arrest,15500,2023-02-21
+P013,Komal Mishra,33,Female,East,Diabetes,8700,2023-02-25
+P014,Amit Joshi,46,Male,South,Hypertension,9300,2023-03-01
+P015,Ritika Shah,28,Female,West,Asthma,7400,2023-03-04
+P016,Manish Roy,52,Male,North,Cardiac Arrest,14800,2023-03-06
+P017,Nidhi Kapoor,30,Female,East,Diabetes,8100,2023-03-10
+P018,Harsh Vardhan,43,Male,South,Hypertension,9000,2023-03-14
+P019,Shweta Rao,29,Female,West,Asthma,7800,2023-03-16
+P020,Vivek Sinha,47,Male,North,Cardiac Arrest,15700,2023-03-20

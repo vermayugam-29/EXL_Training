@@ -1,0 +1,19 @@
+Task: Apply Min-Max and Z-Score Standardization
+ 
+Objective:
+Help a retail company normalize sales data to prepare it for
+ machine learning. You will apply Min-Max Scaling and Z-Score
+  Standardization to numerical columns and observe the transformed values.
+ 
+Instructions:
+	1. Load the data using pandas.
+	2. Identify numeric columns to scale:
+		UnitsSold, UnitPrice, and TotalRevenue
+	3. Apply:
+		Min-Max Scaling using MinMaxScaler
+		Z-Score Standardization using StandardScaler
+	4. Add scaled results as new columns:
+		UnitsSold_MinMax, UnitsSold_Zscore
+		Same for the other 2 columns.
+	5. Combine the results with the original DataFrame.
+	6. Print the first 5 rows of the final DataFrame.

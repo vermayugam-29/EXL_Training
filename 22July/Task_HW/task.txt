@@ -1,0 +1,22 @@
+
+
+
+Outlier Z-Score
+
+
+Outlier Removal in Product Pricing
+
+📝 Scenario:
+
+You're working with a product sales dataset from an e-commerce company.
+The Price column seems to have a few abnormally high values due to data
+entry errors (like typing an extra 0).
+
+🔧 Task:
+
+- Detect outliers in the Price column using Z-score.
+- Remove the rows containing these outliers.
+- Print the shape of the dataset before and after cleaning.
+- Plot boxplots to visualize the difference.
+
+📌 Hint: Use scipy.stats.zscore() and filter using np.abs(zscore) > 3.

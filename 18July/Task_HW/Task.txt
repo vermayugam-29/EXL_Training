@@ -1,0 +1,24 @@
+Task: Plotly Visualization Practice with the Tips Dataset
+
+
+Task Steps
+Read the Tips Dataset
+
+Import the dataset using either Plotly's built-in data or by downloading the CSV file.
+
+Display the first few rows to confirm correct loading.
+
+Implement Plotly Visualizations
+
+Create and customize the following types of plots using Plotly Express or Plotly Graph Objects.
+
+Various Plots:
+Histogram: Show distribution of total_bill.
+
+Box Plot: Compare tips given by gender or day.
+
+Bar Plot: Total tip amounts by day of the week.
+
+Scatter Plot: Plot total_bill vs. tip, colored by sex.
+
+Pie/Donut Chart: Percentage of smokers vs. non-smokers.

@@ -1,0 +1,20 @@
+Task 3: Mode Imputation for Categorical Column
+
+Scenario:
+
+CustomerSatisfaction has missing values. Fill them using the most frequent response.
+
+.mode() returns most common value; [0] picks the first if there's a tie.
+
+ProductID,ProductName,Category
+P001,Shampoo,Personal Care
+P002,Biscuits,Food
+P003,Soap,
+P004,Toothpaste,Personal Care
+P005,Cookies,Food
+P006,Facewash,Personal Care
+P007,Juice,Food
+P008,Cream,
+
+- Missing Category in rows 3 and 8
+- Replace with mode: 'Personal Care' or 'Food'

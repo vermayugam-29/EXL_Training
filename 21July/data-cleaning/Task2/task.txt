@@ -1,0 +1,22 @@
+Task 2: Drop Rows with Missing MembershipLevel
+
+Scenario:
+
+If a customer has no membership level recorded, their record can't be analyzed — drop it.
+
+Instructions:
+
+- Show rows where MembershipLevel is null.
+- Drop them
+
+CustomerID,Name,MembershipLevel
+C101,Rahul,Gold
+C102,Pooja,Silver
+C103,Aakash,
+C104,Neeta,Gold
+C105,Sanjay,Platinum
+C106,Rekha,
+C107,Vikas,Silver
+
+- Missing MembershipLevel (rows 3, 6)
+- Use dropna(subset=...)

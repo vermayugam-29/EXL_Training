@@ -1,0 +1,18 @@
+Task 4: Forward Fill Time-Based Data
+
+Scenario:
+
+You have a time-ordered record of monthly income. If data is missing in a month, use last known value.
+
+ffill fills forward from previous non-null values — useful in time series.
+
+Date,CustomerID,Location
+2023-07-01,C001,Mumbai
+2023-07-02,C001,
+2023-07-03,C001,
+2023-07-04,C001,Delhi
+2023-07-05,C001,
+2023-07-06,C001,
+
+- Missing `Location` to be filled using **forward fill**
+- Use `.fillna(method='ffill')`

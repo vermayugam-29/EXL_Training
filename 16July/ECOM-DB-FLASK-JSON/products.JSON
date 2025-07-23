@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "description": "Ergonomic wireless mouse with USB receiver",
+        "price": 799.0,
+        "stock": 150
+    },
+    {
+        "id": 2,
+        "name": "Bluetooth Headphones",
+        "description": "Noise-cancelling over-ear headphones with mic",
+        "price": 2599.0,
+        "stock": 75
+    },
+    {
+        "id": 3,
+        "name": "Laptop Sleeve",
+        "description": "Water-resistant 15-inch laptop sleeve",
+        "price": 499.0,
+        "stock": 120
+    },
+    {
+        "id": 4,
+        "name": "Portable Charger",
+        "description": "10000mAh power bank with fast charging support",
+        "price": 1299.0,
+        "stock": 200
+    },
+    {
+        "id": 5,
+        "name": "USB-C Hub",
+        "description": "Multi-port adapter with HDMI, USB, and SD card slots",
+        "price": 1899.0,
+        "stock": 80
+    },
+    {
+        "id": 6,
+        "name": "Smartwatch",
+        "description": "Fitness tracker with heart rate monitor and sleep tracking",
+        "price": 3499.0,
+        "stock": 50
+    },
+    {
+        "id": 7,
+        "name": "Mechanical Keyboard",
+        "description": "RGB backlit mechanical keyboard with blue switches",
+        "price": 2999.0,
+        "stock": 60
+    },
+    {
+        "id": 8,
+        "name": "External Hard Drive",
+        "description": "1TB portable external hard drive USB 3.0",
+        "price": 3999.0,
+        "stock": 40
+    },
+    {
+        "id": 9,
+        "name": "Webcam",
+        "description": "Full HD 1080p webcam with built-in microphone",
+        "price": 2199.0,
+        "stock": 90
+    },
+    {
+        "id": 10,
+        "name": "Wireless Speaker",
+        "description": "Portable Bluetooth speaker with deep bass",
+        "price": 1799.0,
+        "stock": 110
+    },
+    {
+        "id": 11,
+        "name": "Monitor Stand",
+        "description": "Adjustable monitor riser with storage space",
+        "price": 999.0,
+        "stock": 70
+    },
+    {
+        "id": 12,
+        "name": "Gaming Mouse Pad",
+        "description": "Large extended mouse pad with anti-slip base",
+        "price": 599.0,
+        "stock": 130
+    },
+    {
+        "id": 13,
+        "name": "Noise Cancelling Earbuds",
+        "description": "True wireless earbuds with ANC and touch controls",
+        "price": 3299.0,
+        "stock": 55
+    },
+    {
+        "id": 14,
+        "name": "HDMI Cable",
+        "description": "High-speed HDMI cable 2 meters long",
+        "price": 399.0,
+        "stock": 300
+    },
+    {
+        "id": 15,
+        "name": "LED Desk Lamp",
+        "description": "Adjustable LED lamp with brightness control",
+        "price": 1299.0,
+        "stock": 85
+    }
+]

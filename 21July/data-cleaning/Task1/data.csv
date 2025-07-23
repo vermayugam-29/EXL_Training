@@ -1,0 +1,9 @@
+CustomerID,Name,Age,Gender
+C001,Amit,29,Male
+C002,Anita,,Female
+C003,Ravi,35,Male
+C004,Sunita,NA,Female
+C005,Manoj,42,Male
+C006,Priya,,Female
+C007,Karan,31,Male
+C008,Neha,30,Female

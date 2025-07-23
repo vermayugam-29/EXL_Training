@@ -1,0 +1,20 @@
+Scenario: E-commerce Customer Data
+You're working with data from an e-commerce platform that tracks customer behavior and purchases.
+Your goal is to prepare the dataset for modeling by applying basic feature engineering techniques.
+Tasks
+Task 1: Convert signup_date to useful features
+Extract the signup month and signup weekday from signup_date.
+Task 2: Encode gender column
+Convert the gender column into numerical format: e.g., Male=0, Female=1, Other=2.
+Task 3: Create a binary feature
+Create a new column is_returning_customer: 1 if num_previous_orders > 0, else 0.
+Task 4: Bin the total_spent
+Create bins:
+Low for < 100
+Medium for 100-300
+High for > 300
+Task 5: One-Hot Encode country
+Additional Task to try
+What other features could you create from the existing ones?
+Would normalization/scaling help for any feature?
+How would you handle missing values if any were present?
