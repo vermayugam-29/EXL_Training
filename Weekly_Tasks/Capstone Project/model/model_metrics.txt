@@ -1,0 +1,9 @@
+Model Evaluation Metrics:
+Accuracy : 0.6633
+Precision: 0.6400
+Recall   : 0.6737
+F1 Score : 0.6564
+
+Confusion Matrix:
+[[68 36]
+ [31 64]]

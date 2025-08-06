@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Environment files
+.env
+*.env
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# MySQL dumps / backups (if you generate any)
+*.sql
+*.bak
+
+# Compiled Cython files
+*.so
+
+# Model files
+model/*.pkl
+model/*.joblib
+
+# Visualization outputs (optional — if you don't want images in git)
+visualizations/*.png
+
+# Data files (optional — depends if you want to track CSVs in Git)
+data/processed/*
+!data/processed/.gitkeep
+
+data/raw/*
+!data/raw/.gitkeep
+
+# Python packaging
+*.egg-info/
+build/
+dist/
