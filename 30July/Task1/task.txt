@@ -1,0 +1,42 @@
+product-reiview.csv
+======================
+review,sentiment
+"Great product! I love it and would definitely recommend it to others.",positive
+"Not happy with the quality. It stopped working after a few uses.",negative
+"Absolutely amazing! Best purchase I've made this year.",positive
+"Very disappointing. The product doesn't work as advertised.",negative
+"Good value for the price. Worth every penny.",positive
+"I regret buying this. It broke on the second day.",negative
+"Fantastic! It exceeded all my expectations.",positive
+"Terrible product. I wish I could return it.",negative
+"Very happy with this. It’s exactly what I needed.",positive
+"Do not buy this. It’s poorly made and unreliable.",negative
+
+
+Objective:
+The goal of this task is to build a sentiment analysis model that classifies product reviews into positive or negative sentiment categories based on the review content. This task will involve common NLP techniques like text cleaning, tokenization, stopword removal, and TF-IDF feature extraction, along with training a classifier model.
+
+Task Steps:
+Step 1: Load the Dataset
+	You will be provided with a CSV file containing product reviews and their sentiment labels (positive or negative).
+
+Step 2: Preprocess the Text
+	Convert text to lowercase.
+	Remove special characters, numbers, and unnecessary spaces.
+	Tokenize the text into words (split the text into individual words).
+	Remove stopwords using an NLP library like nltk to focus on the more meaningful words.
+
+	Apply stemming or lemmatization to simplify words (e.g., “running” becomes “run”).
+
+Step 3: Feature Extraction
+	Convert the cleaned text into numerical features using TF-IDF (Term Frequency-Inverse Document Frequency), which weighs the importance of words in the document relative to the entire dataset.
+
+Step 4: Model Training
+	Train a Logistic Regression or Naive Bayes classifier on the features extracted from the text data. These models are commonly used for text classification tasks.
+
+Step 5: Model Evaluation
+	Evaluate your model using accuracy (how many reviews were classified correctly).
+	Generate a confusion matrix to show how well the model distinguishes between positive and negative reviews.
+
+Step 6: Make Predictions
+	Test the model on some new product reviews and predict whether they are positive or negative.

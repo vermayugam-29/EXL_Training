@@ -1,0 +1,16 @@
+CustomerID,Name,Age,Gender,Region,AnnualIncome,MembershipLevel,Purchases,LastPurchaseDate,TotalRevenue,Product
+C001,Ankit Sharma,28,Male,North,550000,Gold,35,2024-12-10,560000,Wireless Earbuds
+C002,Neha Verma,,Female,East,,Silver,12,2023-10-15,180000,Smart Watch
+C003,Raj Patel,42,Male,South,720000,Platinum,58,2024-05-01,920000,Laptop
+C004,Simran Kaur,35,Female,West,690000,Gold,44,2024-11-20,600000,Wireless Earbuds
+C005,Amit Yadav,30,,North,580000,Silver,20,2023-08-09,200000,Tablet
+C006,Pooja Mehta,26,Female,East,610000,Gold,32,2024-01-15,590000,Smart Watch
+C007,Karan Kapoor,48,Male,South,,Platinum,70,2025-02-01,990000,Wireless Earbuds
+C008,Divya Singh,,Female,West,720000,Platinum,66,2024-09-25,850000,Laptop
+C009,Vivek Agarwal,36,Male,East,500000,Silver,18,2023-05-18,999999,Wireless Earbuds
+C010,Anjali Nair,31,Female,North,9999999,Gold,25,2025-03-10,10500000,Tablet
+C011,Sunny Raut,41,Male,North,600000,Silver,17,2023-04-18,170000,Smart Watch
+C012,Megha Joshi,38,Female,West,,Gold,40,2023-06-25,620000,Laptop
+C013,Arjun Desai,22,Male,South,400000,Silver,10,2022-12-01,150000,Smart Watch
+C014,Shruti Pandey,29,Female,East,630000,Platinum,61,2024-02-15,900000,Tablet
+C015,Tarun Malik,27,Male,North,470000,Gold,22,2024-07-12,520000,Wireless Earbuds

@@ -1,0 +1,15 @@
+Practice Task 2: Detect Employee Attrition
+Scenario:
+You are HR analyst. You have data about employeesʼ years at company and job
+satisfaction score 110, and whether they left the company or stayed.
+
+Goal: Predict if an employee is likely to leave based on these factors.
+EmployeeID,Years_At_Company,Job_Satisfaction,Left_Company
+E001,1,4,1
+E002,5,8,0
+E003,2,3,1
+E004,6,7,0
+E005,3,5,0
+E006,4,6,0
+E007,1,2,1
+E008,7,9,0

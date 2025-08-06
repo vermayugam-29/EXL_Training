@@ -1,0 +1,15 @@
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\bin\Debug\net9.0\CSharpApp.exe
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\bin\Debug\net9.0\CSharpApp.deps.json
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\bin\Debug\net9.0\CSharpApp.runtimeconfig.json
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\bin\Debug\net9.0\CSharpApp.dll
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\bin\Debug\net9.0\CSharpApp.pdb
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\CSharpApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\CSharpApp.AssemblyInfoInputs.cache
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\CSharpApp.AssemblyInfo.cs
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\CSharpApp.csproj.CoreCompileInputs.cache
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\CSharpApp.sourcelink.json
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\CSharpApp.dll
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\refint\CSharpApp.dll
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\CSharpApp.pdb
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\CSharpApp.genruntimeconfig.cache
+C:\Users\Yugam Verma\Desktop\EXL_Training\30July\C #\CSharpApp\obj\Debug\net9.0\ref\CSharpApp.dll

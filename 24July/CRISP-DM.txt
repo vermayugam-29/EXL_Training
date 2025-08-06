@@ -1,0 +1,120 @@
+Data Science
+	|- CRISP-DM
+		|- CRoss Industry Standard Process for Data Mining
+		Phases
+			1. Business Understanding
+				Define the project object as per business perspective
+			2. Data Understanding
+				Collect & Explore data to get familiarity
+			3. Data Preprocessing/Preparation
+				Cleaning, Transforming format data for modeling
+			4. Data Modeling
+				Apply machine learning or statistical models
+			5. Data Evaluation
+				Assess if the data model meet business requirement
+			6. Deployment
+				Deploy the model to a real world environemtn for users
+1. Business Understanding
+	Thoroughly understand project to meet business goals
+	- Determine business objective
+		Client's Goal
+	- Assess Situation
+		Resources, constraints, assumptions, risks
+	- Define Data Science Goals
+		Translate business goals into ML tasks
+	- Create a Project Plan
+		Outline timeliness, responsbilities, tools, deliverables
+2. 	Data Understanding
+		To collect initial(row), explore it, assess its quality
+	- Collect inital data
+		Customer database, WEB Scrapping, CRM Tool
+	- Describe Data
+		- Understand structure of data (column, types, size, limit, 
+				format - String, Numerical, Boolean, Date)
+	- Explore the data
+		- Identify patterns, relationships, distributions
+			Visualization 
+	- Verify data quality
+		check 
+			- Missing Value
+			- Outliers
+			- Duplicates
+			- Invalid formatting
+			- Inconsistent category (Male, male, m, MALE)
+
+3. Data Preprocessing/Preparation
+	To transoform raw data into more cleaner, well structured dataset that is ready for modelling
+		- Select Data
+			Choose relevant attribute (Find Premium Customer)
+		- Clean Data
+			a. Handling Missing Value
+				--> Impute with mean/median/mode
+				--> Forward or Backword Filling
+			b. Handle Outliers
+				--> Capping-Flooring, Z-Score, IQR methods
+		- Construct Data
+			Feature Engineering
+				Create a new FEATURE (variable, columns) {AgeGroup, TenureYears}
+				Combine FEATUREs (FullName = First_Name + " " + Last_Name)
+		- Integrate Data
+			Merge data from different sources
+		- Format Data
+			Converting String into Date, float, int
+			Normalize/Standardize the data
+			Encoding of Data
+4. Data Modeling
+		To select, build, train predictive models using prepared data for business problem solving
+		- Select Modeling Technique
+			a. Classification - Logistic Regression, Decision Tree, Random Forest....
+			b. Regression - Linear Regression, Ridge, Lasso.....
+			c. Clustering - K Means, Hierarichal 
+		- Split Data
+			Use Train-Test split
+			80% Training - 20% Testing
+		- Training Data
+			Fit the model on training data using .fit()
+				Example: model.fit(x_train, y_train)
+		- Evaluate Model
+			Use Metrics like:
+							Accuracy, Precision, Confusion, F1-Score, Recall
+		- Tuning and Optimization
+			- Use HyperParameter Training
+			- Improve model with:
+				a. Feature selection
+				b. Feature scaling
+5. Data Evaluation
+		To critically assess the model's performance & ensure it meets the business goals before final deployment
+		1. Model Validation
+			Use test data(unseen during training) to assess generalizability
+			Ensure the model doesn't overfit(too perfect for training but poor on testing)
+		2. Metric-Based Evaluation
+			- Classification: Accurancy, Precision, Recall, F1-Score, ROC-UAC
+			- Regression: MAE, MSE, RMSE, R2SCORE
+			- Clustering: Davis Bouldin Index, Silhouette Score
+		3. Compare Multiple Models
+			- Compare various algorithms' metrics to select best model
+			- Use visual tools:
+					ROC Curve, Precision-Recall Curve
+		4. Check for Business Relevance
+			- Does high accuracy translate into actual business value????
+		5. Error Analysis
+			- Inspect misclassified examples
+			- Understand why model is making certain prediction
+			- Adjust the data or model accordingly
+6. Deploy
+		To deliver model into a production environment, to provide insights, prediction in real world scenarios
+		1. Integrate models into production systems
+			- Could be a website, app, dashboard
+			- Tools: Flask, FastAPI, Streamlit
+		2. Create a deployment pipeline
+			- Automate steps: data collection --> data preprocessing, prediction, output
+		3. Model Monitoring
+			- Track performance of model
+			- Detect data drift
+		4. Enable re-training
+			- Set up retraining cycles based on new data
+			- Maintain versions of data & model
+		5. User interface & accessibility
+			- Make the prediction accessible
+		6. Documentation
+			- Detailed user guide, technical documentation, change logs
